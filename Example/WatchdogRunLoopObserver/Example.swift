@@ -13,5 +13,6 @@ class Test {
     func test() {
         Watchdog.shared.start()
         DevicePressureLogger.shared.registerForThermalNotifications()
+        DevicePressureLogger.shared.reportMemory()
     }
 }

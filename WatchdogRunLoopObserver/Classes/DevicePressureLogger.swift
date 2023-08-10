@@ -24,7 +24,7 @@ public class DevicePressureLogger {
 //    var analyticsComponent: AnalyticsComponentProtocol { AnalyticsComponent.Performance }
 //    @Inject private var reportsMediaUploader: IReportsMediaUploader
     
-    func reportMemory() {
+    public func reportMemory() {
         var taskInfo = mach_task_basic_info()
         var count = mach_msg_type_number_t(MemoryLayout<mach_task_basic_info>.size)/4
         let kerr: kern_return_t = withUnsafeMutablePointer(to: &taskInfo) {
