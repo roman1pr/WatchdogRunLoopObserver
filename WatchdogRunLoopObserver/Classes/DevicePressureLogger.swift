@@ -15,7 +15,7 @@ func printToConsole(_ items: Any..., separator: String = " ", terminator: String
     #endif
 }
 
-class DevicePressureLogger {
+public class DevicePressureLogger {
     
     static let shared = DevicePressureLogger()
     
