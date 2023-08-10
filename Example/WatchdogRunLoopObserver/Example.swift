@@ -12,5 +12,6 @@ import WatchdogRunLoopObserver
 class Test {
     func test() {
         Watchdog.shared.start()
+        DevicePressureLogger.shared.registerForThermalNotifications()
     }
 }

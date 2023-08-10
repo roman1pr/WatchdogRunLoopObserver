@@ -17,7 +17,7 @@ func printToConsole(_ items: Any..., separator: String = " ", terminator: String
 
 public class DevicePressureLogger {
     
-    static let shared = DevicePressureLogger()
+    public static let shared = DevicePressureLogger()
     
     private init() { }
     
@@ -61,7 +61,7 @@ public class DevicePressureLogger {
     }
     
     //Registering for Thermal Change notifications
-    func registerForThermalNotifications() {
+    public func registerForThermalNotifications() {
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(responseToHeat(_:)),
                                                name: ProcessInfo.thermalStateDidChangeNotification,
