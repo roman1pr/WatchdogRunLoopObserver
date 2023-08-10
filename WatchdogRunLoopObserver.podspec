@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = << 'WatchdogRunLoopObserver for rebotics'
+  s.description      = 'WatchdogRunLoopObserver for rebotics'
 
   s.homepage         = 'https://github.com/roman1pr/WatchdogRunLoopObserver'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
