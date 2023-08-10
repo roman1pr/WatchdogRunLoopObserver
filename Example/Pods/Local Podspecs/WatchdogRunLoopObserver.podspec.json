@@ -1,0 +1,27 @@
+{
+  "name": "WatchdogRunLoopObserver",
+  "version": "0.1.0",
+  "summary": "A short description of WatchdogRunLoopObserver.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/roman1pr/WatchdogRunLoopObserver",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "roman1pr": "proman11pr@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/roman1pr/WatchdogRunLoopObserver.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "WatchdogRunLoopObserver/Classes/**/*",
+  "dependencies": {
+    "FirebaseCrashlytics": [
+
+    ]
+  }
+}

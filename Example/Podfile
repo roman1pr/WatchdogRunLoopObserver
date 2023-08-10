@@ -8,6 +8,5 @@ target 'WatchdogRunLoopObserver_Example' do
   target 'WatchdogRunLoopObserver_Tests' do
     inherit! :search_paths
 
-    
   end
 end

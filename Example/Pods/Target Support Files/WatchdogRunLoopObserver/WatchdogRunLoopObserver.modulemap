@@ -1,0 +1,6 @@
+framework module WatchdogRunLoopObserver {
+  umbrella header "WatchdogRunLoopObserver-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Pods_WatchdogRunLoopObserver_Tests {
+  umbrella header "Pods-Pods-WatchdogRunLoopObserver_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
